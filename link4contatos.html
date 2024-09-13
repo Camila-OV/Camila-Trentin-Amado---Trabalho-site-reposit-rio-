@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Arquivo CSS vinculado aqui-->
+    <link rel="stylesheet" type="text/css" href="estilolinks.css">
+
+    <title>Meus contatos</title>
+</head>
+<body>
+    <!--Menu inicial/navegação-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="link1sobremim.html">Sobre Mim</a></li>
+            <li><a href="link2formacao.html">Formacao e Idiomas</a></li>
+            <li><a href="link3portfolio.html">Portfolio</a></li>
+            <li><a href="link4contatos.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1 style="border: 2px solid rgb(106, 106, 171); background-color: paleturquoise; color: white;">Contatos</h1>
+    <p>Quer entrar em contato? Então veja o formulário abaixo: </p>
+    <!--Imagem de um telefone colocada aqui-->
+    <img src="contatinhos.jpeg" alt="Uma foto de um telefone com fio" width="24%" style="float:inline-start; border-radius: 40px 40px; border: 4px solid rgb(61, 70, 104);">
+    <!--Formulário dos contatos e texto-->
+    <form>
+        <!--Nome-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Camila Trentin A." required>
+
+        <!--Email-->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="caca.trentin@gmail.com" required>
+
+        <!--Espaço para digitar uma mensagem-->
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui" required></textarea>
+        
+        <!--Botão para Enviar-->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
